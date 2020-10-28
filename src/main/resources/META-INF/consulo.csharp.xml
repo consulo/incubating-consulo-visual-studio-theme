@@ -1,0 +1,9 @@
+<consulo-plugin>
+	<extensions defaultExtensionNs="consulo.csharp">
+		<projectTreeNodeExpander implementation="consulo.visual.studio.theme.csharp.VSCSharpProjectTreeNodeExpander" order="first"/>
+	</extensions>
+
+	<extensions defaultExtensionNs="com.intellij">
+		<iconDescriptorUpdater implementation="consulo.visual.studio.theme.csharp.VSCSharpIconDescriptorUpdater" order="last"/>
+	</extensions>
+</consulo-plugin>

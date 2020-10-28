@@ -5,4 +5,5 @@
 	<version>SNAPSHOT</version>
 	<vendor>consulo.io</vendor>
 
+	<depends optional="true" config-file="consulo.csharp.xml">consulo.csharp</depends>
 </consulo-plugin>
