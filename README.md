@@ -1,6 +1,10 @@
 # Visual Studio Theme Plugin (currently only icons, wip)
 
-## 
+## Example
+
+![](public/project.png)
+
+## Increasing icons size
 
 How add new icons. First of all need download VS 2016 Image Library (https://www.microsoft.com/en-us/download/details.aspx?id=35825)
 
