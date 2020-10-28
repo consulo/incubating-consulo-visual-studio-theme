@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"  x="0px" y="0px"
+	 width="16px" height="16px" viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve">
+<g id="canvas">
+	<path id="_Compound_Path_" fill="#F6F6F6" fill-opacity="0" d="M16,16H0V0h16V16z"/>
+</g>
+<g id="outline">
+	<path fill="#F6F6F6" d="M16,6.6l-3-3L11.6,5H9.4l1-1l-4-4H5.6L0,5.6v0.8l4,4L6.4,8H7v5h1.6l3,3h0.8l3.6-3.6v-0.8l-2.1-2.1L16,7.4
+		V6.6z"/>
+</g>
+<g id="iconBg">
+	<path fill="#C27D1A" d="M13,10l2,2l-3,3l-2-2l1-1H8V7H6L4,9L1,6l5-5l3,3L7,6h5l1-1l2,2l-3,3l-2-2l1-1H9v4h3L13,10z"/>
+</g>
+</svg>

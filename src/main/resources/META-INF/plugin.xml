@@ -1,0 +1,8 @@
+<consulo-plugin>
+	<id>consulo.visual.studio.theme</id>
+	<name>Visual Studio Theme</name>
+	<experimental>true</experimental>
+	<version>SNAPSHOT</version>
+	<vendor>consulo.io</vendor>
+
+</consulo-plugin>

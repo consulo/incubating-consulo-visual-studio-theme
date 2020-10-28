@@ -1,0 +1,5 @@
+/.consulo
+!/.consulo/codeStyleSettings.xml
+/out
+/target
+target/
