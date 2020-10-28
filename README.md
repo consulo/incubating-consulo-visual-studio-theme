@@ -33,3 +33,13 @@ First directory level is - icon group id. Own plugins can provide more than one 
 ## Running Consulo in sandbox with plugin
 
 > ./mvnw package consulo:run-desktop
+
+## Instaling plugin build to production Consulo installation
+
+> ./mvnw package
+
+Then copy directory 
+
+> target\consulo-plugin-extracted\consulo.visual.studio.theme
+
+To plugin directory based by OS https://github.com/consulo/EntryPoint/blob/master/boot/boot.directories.md
