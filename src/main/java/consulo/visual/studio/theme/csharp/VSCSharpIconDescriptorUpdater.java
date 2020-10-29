@@ -23,10 +23,10 @@ public class VSCSharpIconDescriptorUpdater implements IconDescriptorUpdater
 	@Override
 	public void updateIcon(@Nonnull IconDescriptor iconDescriptor, @Nonnull PsiElement element, int flags)
 	{
-		if(!VSIconTheme.isEnabled())
-		{
+		if(!VSIconTheme.isLightThemeEnabled())
 			return;
-		}
+		if(!VSIconTheme.isDarkThemeEnabled())
+			return;
 
 		VirtualFile virtualFile = null;
 		if(element instanceof CSharpFileImpl)

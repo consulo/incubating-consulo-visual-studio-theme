@@ -21,7 +21,7 @@ public class VSCSharpProjectTreeNodeExpander implements CSharpProjectTreeNodeExp
 	@Override
 	public AbstractTreeNode<?> expandFile(@Nonnull Project project, @Nonnull ViewSettings viewSettings, @Nonnull AbstractTreeNode<?> node)
 	{
-		if(!VSIconTheme.isEnabled())
+		if(!VSIconTheme.isLightThemeEnabled())
 		{
 			return null;
 		}
