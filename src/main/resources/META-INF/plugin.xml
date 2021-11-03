@@ -5,5 +5,9 @@
 	<version>SNAPSHOT</version>
 	<vendor>consulo.io</vendor>
 
+	<tags>
+		<tag>ui.theme</tag>
+	</tags>
+
 	<depends optional="true" config-file="consulo.csharp.xml">consulo.csharp</depends>
 </consulo-plugin>
