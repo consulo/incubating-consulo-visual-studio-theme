@@ -6,7 +6,7 @@
 	<vendor>consulo.io</vendor>
 
 	<tags>
-		<tag>ui.theme</tag>
+		<tag>ide.theme</tag>
 	</tags>
 
 	<depends optional="true" config-file="consulo.csharp.xml">consulo.csharp</depends>
