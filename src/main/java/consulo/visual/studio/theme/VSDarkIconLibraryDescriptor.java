@@ -9,28 +9,28 @@ import javax.annotation.Nullable;
 
 /**
  * @author VISTALL
- * @since 2020-10-28
+ * @since 09/12/2021
  */
-public class VSLightIconLibraryDescriptor implements IconLibraryDescriptor
+public class VSDarkIconLibraryDescriptor implements IconLibraryDescriptor
 {
 	@Nonnull
 	@Override
 	public String getLibraryId()
 	{
-		return VSIconTheme.VS_LIGHT;
+		return VSIconTheme.VS_DARK;
 	}
 
 	@Nullable
 	@Override
 	public String getBaseLibraryId()
 	{
-		return IconLibraryManager.LIGHT_LIBRARY_ID;
+		return IconLibraryManager.DARK_LIBRARY_ID;
 	}
 
 	@Nonnull
 	@Override
 	public LocalizeValue getName()
 	{
-		return LocalizeValue.of("Visual Studio Light");
+		return LocalizeValue.of("Visual Studio Dark");
 	}
 }

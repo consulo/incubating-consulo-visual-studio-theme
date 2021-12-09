@@ -9,9 +9,11 @@ import consulo.ui.image.IconLibraryManager;
 public class VSIconTheme
 {
 	public static final String VS_LIGHT = "vs_light";
+	public static final String VS_DARK = "vs_dark";
 
 	public static boolean isEnabled()
 	{
-		return VS_LIGHT.equals(IconLibraryManager.get().getActiveLibraryId());
+		String libraryId = IconLibraryManager.get().getActiveLibraryId();
+		return VS_LIGHT.equals(libraryId) || VS_DARK.equals(libraryId);
 	}
 }

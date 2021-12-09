@@ -5,9 +5,6 @@
 <g id="canvas">
 	<path fill="#F6F6F6" fill-opacity="0" d="M16,16H0V0h16V16z"/>
 </g>
-<g id="outline">
-	<path fill="#F6F6F6" d="M3,0l10.7,8L3,16V0z"/>
-</g>
 <g id="iconBg">
 	<path fill="#388A34" d="M4,2v12l8-6L4,2z"/>
 </g>
