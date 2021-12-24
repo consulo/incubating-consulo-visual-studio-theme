@@ -1,4 +1,4 @@
-<consulo-plugin>
+<consulo-plugin url="https://github.com/consulo/incubating-consulo-visual-studio-theme">
 	<id>consulo.visual.studio.theme</id>
 	<name>Visual Studio Theme</name>
 	<experimental>true</experimental>
