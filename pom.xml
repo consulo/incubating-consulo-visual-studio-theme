@@ -19,15 +19,15 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>consulo</groupId>
-		<artifactId>arch.ide-api-provided</artifactId>
+		<artifactId>arch.managment</artifactId>
 		<version>3-SNAPSHOT</version>
 		<relativePath/>
 	</parent>
 
 	<groupId>consulo.plugin</groupId>
-	<artifactId>consulo.visual.studio.theme</artifactId>
+	<artifactId>consulo.visual.studio.theme.parent</artifactId>
 	<version>3-SNAPSHOT</version>
-	<packaging>consulo-plugin</packaging>
+	<packaging>pom</packaging>
 
 	<repositories>
 		<repository>
@@ -40,42 +40,9 @@
 		</repository>
 	</repositories>
 
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>consulo.maven</groupId>
-				<artifactId>maven-consulo-plugin</artifactId>
-				<extensions>true</extensions>
-				<configuration>
-					<packaging>
-						<skip>${dev.mode}</skip>
-						<version>${build.number}</version>
-					</packaging>
-				</configuration>
-				<executions>
-					<execution>
-						<phase>package</phase>
-						<goals>
-							<goal>workspace</goal>
-						</goals>
-					</execution>
-				</executions>
-			</plugin>
-		</plugins>
-	</build>
-
-	<dependencies>
-		<dependency>
-			<groupId>${project.groupId}</groupId>
-			<artifactId>consulo.dotnet</artifactId>
-			<version>${project.version}</version>
-			<scope>provided</scope>
-		</dependency>
-		<dependency>
-			<groupId>${project.groupId}</groupId>
-			<artifactId>consulo.csharp</artifactId>
-			<version>${project.version}</version>
-			<scope>provided</scope>
-		</dependency>
-	</dependencies>
+	<modules>
+		<module>plugin</module>
+		<module>theme-api</module>
+		<module>theme-csharp-impl</module>
+	</modules>
 </project>

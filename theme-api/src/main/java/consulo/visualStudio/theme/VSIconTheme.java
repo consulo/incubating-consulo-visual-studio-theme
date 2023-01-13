@@ -1,4 +1,4 @@
-package consulo.visual.studio.theme;
+package consulo.visualStudio.theme;
 
 import consulo.ui.image.IconLibraryManager;
 
