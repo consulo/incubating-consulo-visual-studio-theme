@@ -1,12 +1,12 @@
 package consulo.visual.studio.theme.csharp;
 
-import com.intellij.openapi.vfs.VirtualFile;
-import com.intellij.psi.PsiElement;
 import consulo.annotation.access.RequiredReadAction;
-import consulo.csharp.assemblyInfo.CSharpAssemblyConstants;
-import consulo.csharp.lang.psi.impl.source.CSharpFileImpl;
-import consulo.ide.IconDescriptor;
-import consulo.ide.IconDescriptorUpdater;
+import consulo.csharp.lang.impl.CSharpAssemblyConstants;
+import consulo.csharp.lang.impl.psi.source.CSharpFileImpl;
+import consulo.language.icon.IconDescriptor;
+import consulo.language.icon.IconDescriptorUpdater;
+import consulo.language.psi.PsiElement;
+import consulo.virtualFileSystem.VirtualFile;
 import consulo.visual.studio.theme.VSIconTheme;
 
 import javax.annotation.Nonnull;

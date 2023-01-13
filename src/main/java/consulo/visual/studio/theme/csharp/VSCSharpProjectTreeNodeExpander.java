@@ -1,10 +1,10 @@
 package consulo.visual.studio.theme.csharp;
 
-import com.intellij.ide.projectView.ViewSettings;
-import com.intellij.ide.util.treeView.AbstractTreeNode;
-import com.intellij.openapi.project.Project;
 import consulo.annotation.access.RequiredReadAction;
-import consulo.csharp.ide.projectView.CSharpProjectTreeNodeExpander;
+import consulo.csharp.impl.ide.projectView.CSharpProjectTreeNodeExpander;
+import consulo.project.Project;
+import consulo.project.ui.view.tree.AbstractTreeNode;
+import consulo.project.ui.view.tree.ViewSettings;
 import consulo.visual.studio.theme.VSIconTheme;
 
 import javax.annotation.Nonnull;
