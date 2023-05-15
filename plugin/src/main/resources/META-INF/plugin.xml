@@ -9,5 +9,5 @@
 		<tag>ide.theme</tag>
 	</tags>
 
-	<depends optional="true" config-file="consulo.csharp.xml">consulo.csharp</depends>
+	<depends optional="true">consulo.csharp</depends>
 </consulo-plugin>
