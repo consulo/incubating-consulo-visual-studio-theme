@@ -2,8 +2,7 @@ package consulo.visualStudio.theme.impl;
 
 import consulo.annotation.component.ExtensionImpl;
 import consulo.colorScheme.BundledColorSchemeProvider;
-
-import javax.annotation.Nonnull;
+import jakarta.annotation.Nonnull;
 
 /**
  * @author VISTALL

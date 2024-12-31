@@ -9,8 +9,8 @@ import consulo.language.icon.IconDescriptorUpdater;
 import consulo.language.psi.PsiElement;
 import consulo.virtualFileSystem.VirtualFile;
 import consulo.visualStudio.theme.VSIconTheme;
+import jakarta.annotation.Nonnull;
 
-import javax.annotation.Nonnull;
 import java.util.Objects;
 
 /**
