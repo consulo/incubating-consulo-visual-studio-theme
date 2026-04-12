@@ -2,7 +2,7 @@ package consulo.visualStudio.theme.csharp;
 
 import consulo.annotation.access.RequiredReadAction;
 import consulo.annotation.component.ExtensionImpl;
-import consulo.csharp.impl.ide.projectView.CSharpProjectTreeNodeExpander;
+import consulo.csharp.projectView.CSharpProjectTreeNodeExpander;
 import consulo.project.Project;
 import consulo.project.ui.view.tree.AbstractTreeNode;
 import consulo.project.ui.view.tree.ViewSettings;
