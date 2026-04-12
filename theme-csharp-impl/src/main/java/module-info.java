@@ -6,6 +6,8 @@ module consulo.visual.studio.theme.csharp.impl {
     requires consulo.visual.studio.theme.api;
 
     requires consulo.project.ui.view.api;
+
+    requires consulo.csharp.project.view.api;
     
     requires consulo.csharp;
 }
